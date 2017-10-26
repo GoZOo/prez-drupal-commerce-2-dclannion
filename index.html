@@ -85,6 +85,9 @@
                         <p>
                             Commerce 2.x, réécriture pour Drupal 8
                         </p>
+                        <p>
+                            Une trentaine des 60 modules contrib les plus utilisés ont eu leurs fonctionnalités intégrées à Commerce 2.x.
+                        </p>
                     </section>
                     <section>
                         <h2>Drupal 8 &amp; Commerce 2.x</h2>
@@ -135,7 +138,6 @@
                                     <li>Workflow</li>
                                     <li>Checkout</li>
                                     <li>Payment</li>
-                                    <li>Price</li>
                                     <li>Etc.</li>
                                 </ul>
                             </div>
@@ -243,7 +245,6 @@
                     <section>
                         <h2>Configuration des paiements intégrée</h2>
                         <p class="fragment" style="color: #fcc500;">Payment: plugin</p>
-                        <p class="fragment" style="color: #fcc500;">PaymentMethod: plugin</p>
                         <ul>
                             <li class="fragment">Uniformisation de la configuration des paiements:
                                 <ul>
@@ -375,6 +376,10 @@ process:
 destination:
   plugin: 'entity:commerce_product'
                         </code></pre>
+                    </section>
+                    <section>
+                        <h2>Migration - sauf...</h2>
+                        <p class="fragment">Si vous souhaitez migrer un commerce depuis D7 ou Ubercart. <a href="https://www.drupal.org/project/commerce_migrate">le module commerce_migrate peut vous aider</a>.</p>
                     </section>
                     <section>
                         <h2>Synchronisation services externes</h2>
